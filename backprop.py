@@ -123,5 +123,3 @@ Y = Y.reshape((Y.shape[0], 1))
 # Hidden layer of 20 neurons
 nn = NN([X.shape[1], 20, Y.shape[1]])
 nn.train(list(zip(X, Y)))
-
-
